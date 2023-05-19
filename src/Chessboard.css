@@ -3,9 +3,16 @@
   height: 600px;
   display: flex;
   flex-wrap: wrap;
+  cursor: pointer;
 }
 
 .square {
   width: 75px;
   height: 75px;
+}
+
+.square:active {
+  cursor: grabbing;
+  cursor: -moz-grabbing;
+  cursor: -webkit-grabbing;
 }
